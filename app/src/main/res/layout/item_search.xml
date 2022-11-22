@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:paddingBottom="@dimen/row_padding"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/row_padding">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/thumbnail"
+        android:layout_height="@dimen/thumbnail"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/row_padding" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/company_name"
+        android:textSize="@dimen/company_name" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_toRightOf="@id/avatar"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/company_kind"
+        android:textSize="@dimen/company_name" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/type"
+        android:layout_toRightOf="@id/avatar"
+        android:textColor="@color/company_kind"
+        android:textSize="@dimen/company_kind" />
+
+</RelativeLayout>

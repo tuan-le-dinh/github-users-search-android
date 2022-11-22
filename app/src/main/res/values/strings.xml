@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Github Users Search</string>
+    <string name="type">type: %1$s</string>
+    <string name="score">score: %1$d</string>
+</resources>
